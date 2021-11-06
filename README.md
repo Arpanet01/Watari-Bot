@@ -18,6 +18,8 @@ Ex: `$lock all_channels`
 Usee esse comando para abrir um canal.
 Adicione a configuração `all_channels` para abrir todos os canais do servidor.
 
+Ex: `$unlock all_channels`
+
 ### whois
 
 Use esse comando para ver informações sobre um usuário.
