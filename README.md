@@ -55,3 +55,6 @@ Use para ver algumas informações sobre o bot.
 Use esse comando para banir um usuário.
 
 Ex: $ban id_do_usuário
+
+### Vídeo de demonstração do sistema de registro:
+
