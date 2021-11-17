@@ -1,3 +1,6 @@
+#Versão de 17/11/2021 
+
+#Importações
 import discord
 from discord.ext import commands
 from time import sleep
@@ -6,7 +9,7 @@ import json
 import asyncio
 
 
-
+#Configurações Do Bot
 prefix = '$'
 intents = discord.Intents.default()
 intents.members = True
@@ -14,7 +17,7 @@ client = commands.Bot(command_prefix = prefix, case_insensitive = True, intents 
 #client.remove_command('help')
 
 	
-
+#Ativação de Bot
 @client.event
 async def on_ready():
 	
@@ -24,6 +27,8 @@ async def on_ready():
 #Entrada de Membros/Registro
 @client.event
 async def on_member_join(member):
+	
+	#Aviso: Requer criação de um arquivo json. Em determinada parte do código, o programa irá ler as regras que devem ser salvas dentro de um dicionário em um arquivo json. 
 	
 	global c, c2
 	
