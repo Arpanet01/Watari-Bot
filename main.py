@@ -16,6 +16,13 @@ intents.members = True
 client = commands.Bot(command_prefix = prefix, case_insensitive = True, intents = intents)
 #client.remove_command('help')
 
+#Leitura de arquivo json
+#Essencial para envio de regras.
+def rules():
+	with open('rules.json', 'r') as file:
+		
+		regras = json.load(file)
+		return regras
 	
 #Ativação de Bot
 @client.event
