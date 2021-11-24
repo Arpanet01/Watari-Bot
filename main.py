@@ -25,7 +25,7 @@ def rules():
 		regras = json.load(file)
 		return regras
 	
-#Ativação de Watari
+#Ativação de Watari Bot
 @client.event
 async def on_ready():
 	
