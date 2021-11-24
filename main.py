@@ -1,4 +1,5 @@
 #Versão de 17/11/2021 
+#Desenvolvido por Arpanet_01, mas isso não importa. Faça o que quiser com o código. ;)
 
 #Importações
 import discord
