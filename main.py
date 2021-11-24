@@ -461,7 +461,7 @@ async def unlock(ctx, setting=None):
 async def rules(ctx):
 	global embed_msg
 	
-	canal = client.get_channel(904799161919090768)
+	canal = client.get_channel()
 
 	if str(ctx.author.id) == 'id': #str
 		
